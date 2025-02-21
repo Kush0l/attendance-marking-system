@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.sketch-button {
+  font-family: 'Architects Daughter', cursive; /* Handwritten font */
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.sketch-button:hover {
+  box-shadow: 2px 2px 0px #000;
+  background-color: #f8f8f8;
+}
